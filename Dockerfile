@@ -16,5 +16,5 @@ RUN npm ci
 # Starting our application
 CMD [ "npm", "run", "start" ]
 
-# Exposing server port
+# Exposing server port to Docker
 EXPOSE 5000
