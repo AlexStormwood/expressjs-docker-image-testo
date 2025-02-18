@@ -4,8 +4,8 @@
   "description": "Quick test of how to put an ExpressJS app into a Docker image for use in Docker Compose files.",
   "main": "index.js",
   "scripts": {
-    "start":"node src/index.js",
-    "dev":"node --watch src/index.js"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AlexStormwood/expressjs-docker-image-testo#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   }
