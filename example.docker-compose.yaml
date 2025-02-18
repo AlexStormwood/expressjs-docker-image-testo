@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: ghcr.io/alexstormwood/expressjs-docker-image-testo:latest
+    container_name: expressjstesto
+    ports:
+      - 5050:5000
+      - 54321:5000
+      - 3001:5000
+    restart: unless-stopped
